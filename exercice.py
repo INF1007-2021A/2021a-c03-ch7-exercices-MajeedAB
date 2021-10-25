@@ -78,7 +78,7 @@ if __name__ == '__main__':
     print("volume ellipsoide : ",volume_masse_ellipsoide(1,1,1))
     print("lettre max:   ",tri("abbbbbbbbbbbbbbbbhuejnwsajknedw"))
 
-    # draw_fractales()
     chaine = saisir_chaine()
     seq = saisir_seq()
     print("Il y a "+str(proportion(chaine,seq))+'%'+" de "+str(seq))
+    draw_fractales()
